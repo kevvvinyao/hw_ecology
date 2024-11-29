@@ -1,7 +1,7 @@
-clear;clc;
+clear; clc;
 load('alpha_interp.mat');
 
-SPL = load('ground_testdata.txt');
+SPL = load('ground_test_data.txt');
 T=14;
 H=67;
 % 适配alpha_interp的索引 温度从-10开始 湿度从50开始
